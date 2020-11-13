@@ -141,8 +141,8 @@ You are given a repository by the person hosting the session. Work on that repos
 ##### Branch2 tasks
 19. Switch to branch “branch2”.
 20. Make “branch2” upto date with local main branch
-21a. By this time, your remote main branch is updated by the host of your session. If not, confirm with the host.
-21b. Make “branch2” upto date with remote main branch.
+21. (a) By this time, your remote main branch is updated by the host of your session. If not, confirm with the host.
+21. (b) Make “branch2” upto date with remote main branch.
 ##### Main branch tasks
 22. Switch to main branch
 23. Delete the latest 1 commit from local as well as remote “main” branch

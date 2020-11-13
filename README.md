@@ -114,35 +114,39 @@ However, to remove any unwanted bias here as well, divide the participants in tw
 Ask each participants to setup the gits inside their local machine before starting the study using steps shown above.
 
 ### Tasks list
-Here is basic draft of the tasks that covers almost each enhancement. 
-Feel free to edit this list as per your convenience. Add few tasks if you got more time for the experiment.
+In the first phase of experiment, please use only GITS command only to perform the git related tasks.
+Similary in the second phase of experiment, please use only regular GIT commands.
 
-1. Create a test repository that can be used by participants to complete their tasks.
-2. Ask participant to clone the repository on their local machine.
-3. Ask participant to set their git profile name and email to "dummy_name" and "dummy@name.com" respectively. Once they are done, ask them to switch it back to the original ones.
-4. Create two branches with name: branch1 and branch2.
-5. list all the branches.
-6. From current branch, switch to the branch1.
-7. create a file named "foo.txt" and write some text in it.
-8. track the file "foo.txt" so that it gets considered for the next commit.
-9. Create another file named "bar.txt" and add some text in it.
-10. track this file "bar.txt" so that it gets considered for the next commit.
-11. commit these changes with appropriate commit message.
-12. make some change to the "bar.txt" and track those changes so that they get considered for the next commit.
-13. You found some issues with changes to this file and now you don't want it to be considered for the next commit. remove those changes from commit area.
-14. Also remove those changes from working directory.
-15. commit these changes with appropriate commit message and switch to the main branch.
-16. merge changes from the branch1 into this main branch and push those changes to the remote main branch.
-17. Now switch to branch2.
-18. Main branch has changed since we created this branch so this branch is working behind in changes. Make this branch up to date with local main branch.
-19. You just got to know that some other developer merged his changes to the remote main branch. Since you have checked out from the main branch, you also want those changes in development branch. So, make your branch up to date with remote main branch.
-20. Now switch to main branch again.
-21. create new file "temp.txt" and write some text in it and commit those changes.
-22. You just realized you directly made changes to the main branch rather than your development branch by mistake. Undo those changes by making current main branch same as remote main branch.
-23. You just got to know that someone merged their changes to the remote main branch. Sync your main branch.
-24. Last commit that is present in the main branch is not working well so you want to remove changes made by that commit entirely on both: local and remote.
-25. You are doing great till now but assume a hypothetical scenario where you have made a mess in your local repo and want to delete the current repo and fork it all again.
-
+You are given a repository by the person hosting the session. Work on that repository.
+##### General tasks
+1. Clone the given repo
+2. Add Your username and Email to the git configuration
+3. Create Branch “branch1”.
+4. Switch to main branch
+5. Create Branch “branch2”
+6. Switch to branch “branch1”
+7. Show branches
+##### Branch1 tasks
+8. Create file “test1.txt” and add `"hello test1"` in file
+9. Stage the “test1.txt” file
+10. Create file “test2.txt” and add `"hello test2"` in file
+11. Stage the “test2.txt” file
+12. Commit the changes and add `"my first commit"` commit message to it
+13. Change the content of “test2.txt”  file from `"hello test2"` to `"hello test2 new"`.
+14. Stage the file “test2.txt”.
+15. Unstage the file “test2.txt”.
+16. Remove the uncommitted changes made to the file “test2.txt”.
+17. Switch to main branch.
+18. Merge the branch branch1 to main branch.
+##### Branch2 tasks
+19. Switch to branch “branch2”.
+20. Make “branch2” upto date with local main branch
+21. (a) By this time, your remote main branch is updated by the host of your session. If not, confirm with the host.
+21. (b) Make “branch2” upto date with remote main branch.
+##### Main branch tasks
+22. Switch to main branch
+23. Delete the latest 1 commit from local as well as remote “main” branch
+24. Suppose you have messed up the repo. You want to delete the local repo and re-clone it. Do it.
 
 ### Quantitative measures
 Here are some measures that can help compare the results between traditional git and gits.

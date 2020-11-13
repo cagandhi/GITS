@@ -137,10 +137,10 @@ You are given a repository by the person hosting the session. Work on that repos
 15. Unstage the file “test2.txt”.
 16. Remove the uncommitted changes made to the file “test2.txt”.
 17. Switch to main branch.
-18. Merge the branch branch1 to main branch.
+18. Merge the branch branch1 to main branch. Push the main branch to remote.
 ##### Branch2 tasks
 19. Switch to branch “branch2”.
-20. Make “branch2” upto date with local main branch
+20. Make “branch2” upto date with local main branch.
 21. (a) By this time, your remote main branch is updated by the host of your session. If not, confirm with the host.
 21. (b) Make “branch2” upto date with remote main branch.
 ##### Main branch tasks

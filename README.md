@@ -118,33 +118,35 @@ In the first phase of experiment, please use only GITS command only to perform t
 Similary in the second phase of experiment, please use only regular GIT commands.
 
 You are given a repository by the person hosting the session. Work on that repository.
+##### General tasks
 1. Clone the given repo
 2. Add Your username and Email to the git configuration
 3. Create Branch “branch1”.
 4. Switch to main branch
 5. Create Branch “branch2”
 6. Switch to branch “branch1”
-#### Branch1 tasks
-7. Create file “test1.txt” and add `"hello test1"` in file
-8. Stage the “test1.txt” file
-9. Create file “test2.txt” and add `"hello test2"` in file
-10. Stage the “test2.txt” file
-11. Commit the changes and add `"my first commit"` commit message to it
-12. Change the content of “test2.txt”  file from "hello test2" to `"hello test2 new"`.
-13. Stage the file “test2.txt”.
-14. Unstage the file “test2.txt”.
-15. Remove the uncommitted changes made to the file “test2.txt”.
-16. Switch to main branch.
-17. Merge the branch branch1 to main branch.
-#### Branch2 tasks
-18. Switch to branch “branch2”.
-19. Make “branch2” upto date with local main branch
-20a. By this time, your remote main branch is updated by the host of your session. If not, confirm with the host.
-20b. Make “branch2” upto date with remote main branch.
-#### Main branch tasks
-21. Switch to main branch
-22. Delete the latest 1 commit from local as well as remote “main” branch
-23. Suppose you have messed up the repo. You want to delete the local repo and re-clone it. Do it.
+7. Show branches
+##### Branch1 tasks
+8. Create file “test1.txt” and add `"hello test1"` in file
+9. Stage the “test1.txt” file
+10. Create file “test2.txt” and add `"hello test2"` in file
+11. Stage the “test2.txt” file
+12. Commit the changes and add `"my first commit"` commit message to it
+13. Change the content of “test2.txt”  file from `"hello test2"` to `"hello test2 new"`.
+14. Stage the file “test2.txt”.
+15. Unstage the file “test2.txt”.
+16. Remove the uncommitted changes made to the file “test2.txt”.
+17. Switch to main branch.
+18. Merge the branch branch1 to main branch.
+##### Branch2 tasks
+19. Switch to branch “branch2”.
+20. Make “branch2” upto date with local main branch
+21a. By this time, your remote main branch is updated by the host of your session. If not, confirm with the host.
+21b. Make “branch2” upto date with remote main branch.
+##### Main branch tasks
+22. Switch to main branch
+23. Delete the latest 1 commit from local as well as remote “main” branch
+24. Suppose you have messed up the repo. You want to delete the local repo and re-clone it. Do it.
 
 ### Quantitative measures
 Here are some measures that can help compare the results between traditional git and gits.

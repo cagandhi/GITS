@@ -58,7 +58,7 @@ At the end of the experiment, participants were asked to fill out [this google f
 
 Write about data that we collected.
 
-# Analysis
+# Statiscal Analysis
 Based on the details we stored from our experiments, following is analysis of these trials.
 <p>
   <img src="data/fimiliarity_time_taken.jpeg" width="350" title="Fimiliarity vs Time taken"> <br />

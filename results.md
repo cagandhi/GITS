@@ -85,6 +85,7 @@ We can see in the above graph that time taken for an individual with less famila
 </p>
 
 # Conclusion
+In the experiment we compared the efficiency of the GITS tool with the Git tool for the version and distributed software development. It is observed that the performance of GITS tool is slight less than the performance of Git. The major reason for the poor performance can be lack of familiarity of the participant with GITS tool. It is expected to perform better as the users get used to the functionality provided by GITS as GITS performs the similar operation in less number of command. Based on the observations obtained from the experiment we conclude that the Git tool outperforms the GITS tool when used by less experienced users.
 
 # Threats to validity
 - The understanding of Git for each participant may be different which may result in the difference in the taken to complete the experiment.

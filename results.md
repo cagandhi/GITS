@@ -59,6 +59,20 @@ At the end of the experiment, participants were asked to fill out [this google f
 Write about data that we collected.
 
 # Analysis
+Based on the details we stored from our experiments, following is analysis of these trials.
+<p>
+  <img src="data/fimiliarity_time_taken.jpeg" width="350" title="Fimiliarity vs Time taken"> <br />
+We can see in the above graph that time taken for an individual with less familarity takes more time whereas for individuals with more familarity takes less time to complete the experiment which is justifiable as the individual witth less experience will have to look at documentation more number of times as compared to more experience individual. <br />
+  <img src="data/fimiliarity_documentation.jpeg" width="350" title="Fimiliarity vs Time taken to read documentation"> <br />
+  In the above graph we can see that unfamilar individual spent more time before hand for reading the documentation and more familar individual hardly spent any time looking at the documentation. This shows that gits and git have highly similar functionalities and function names. <br />
+  <img src="data/time_taken.png" width="350" title="Time Taken using GITS vs Git per task"> <br />
+  It can be seen that time taken for performing gits or git task is similar at most of the places where at some places time taken for performing task in git was less as compared to gits. This explains that due to the unfamilarity with gits functions, some task may take longer than git if person is familar with git. <br />
+  <img src="data/commands.png" width="350" title="Number of commands using GITS vs Git per task"> <br />
+  On the other hand we can see that the number of commands executed for gits are lower than git for performing individual tasks which says that gits has many of the regular used group of methods aggregated into one making it easy for individual to use it. <br />
+  <img src="data/documentation.png" width="350" title="Time taken to read documentation of GITS vs Git per task"> <br />
+  Individual has referred the doc almost equal numnbero of times for both gits and git for the task list. This states that documentation is highly detailed for both of them because on an average for performing a task individual has referred document only once.
+  
+</p>
 
 # Conclusion
 

@@ -80,7 +80,9 @@ We can see in the above graph that time taken for an individual with less famila
   <img src="data/commands.png" width="350" title="Number of commands using GITS vs Git per task"> <br />
   On the other hand we can see that the number of commands executed for gits are lower than git for performing individual tasks which says that gits has many of the regular used group of methods aggregated into one making it easy for individual to use it. <br />
   <img src="data/documentation.png" width="350" title="Time taken to read documentation of GITS vs Git per task"> <br />
-  Individual has referred the doc almost equal numnbero of times for both gits and git for the task list. This states that documentation is highly detailed for both of them because on an average for performing a task individual has referred document only once.
+  Individual has referred the doc almost equal numnbero of times for both gits and git for the task list. This states that documentation is highly detailed for both of them because on an average for performing a task individual has referred document only once.<br />
+  <img src="data/time_per_participant.jpeg" width="350" title="Time taken by each participant to finish all tasks"> <br />
+  It is observed that the time taken by each user to complete the experiment is almost same. We observed very less variance in the data. The participants were focused to perform only the task which were recorded for the analysis. It can be said that the records obtained are valid as they don't have any noise and have low varience.
   
 </p>
 

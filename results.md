@@ -87,3 +87,9 @@ We can see in the above graph that time taken for an individual with less famila
 # Conclusion
 
 # Threats to validity
+- The understanding of Git for each participant may be different which may result in the difference in the taken to complete the experiment.
+- To efficiently use the proposed tool prior knowledge of tool was required. The difference in the knowledge of various command provided by the tool may result in the different results.
+- The conclusion is derived based on the participation of 10 participants which is not sufficient to conclude the success of the tool.
+- The participant of this experiment does not belong to diverse community. All the participants were having similar background and experience which add bias in the result.
+- The experiment does not consider all the possible operations performed by the tool. It may be possible that the results obtained for the experiment are specific to task performed during experiment and may change when larger domain of operations is considered.
+

@@ -55,10 +55,20 @@ During the experiment, both hosts of the session used [this sheet](https://docs.
 At the end of the experiment, participants were asked to fill out [this google form](https://forms.gle/pLK6DoUsfJRAG74G7)
 
 # Observations
+### Manual observations
+This information is collected on a manual basis by the host conducting the experiment. This data corresponds to each of the tasks assingned to the participant using both GITS and Git individually.
+* Time taken by the participant to finish a particular task.
+* Number of (GITS/Git) commands used to complete the task.
+* Number of times the participant glanced at documentation while performing the task.
 
-Write about data that we collected.
-
-# Statiscal Analysis
+ ### Automated observations
+ This information relates to the [form](https://forms.gle/pLK6DoUsfJRAG74G7) filled by participants at the end of the experiments.
+ * Token id
+ * Fimiliarty witbh Git
+ * Time spent by them before the experiment for going through the GITS documentation.
+ * Tasks which they found most difficult to perform.
+ 
+# Statistical Analysis
 Based on the details we stored from our experiments, following is analysis of these trials.
 <p>
   <img src="data/fimiliarity_time_taken.jpeg" width="350" title="Fimiliarity vs Time taken"> <br />
